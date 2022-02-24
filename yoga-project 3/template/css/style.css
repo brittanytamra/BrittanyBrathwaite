@@ -1,0 +1,427 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Adamina', serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+ header img {
+  width: 100%;
+  height: 500px;
+ }
+
+ header h1 {
+   font-size: 150px;
+   text-align:center;
+   color:rgb(219,112,147);
+   margin-top: -25%;
+
+ }
+  section {
+   background-color: rgb(255,255,240);
+    height:810px; 
+    width: 100%;
+ }
+ 
+ .leaves img {
+   width:100%;
+   height:500px;
+ }
+ section .studio {
+   /* background-color: rgb(255,248,220); */
+   height:300px;
+ }
+
+ .home h2{
+    color: rgb(219,112,147);
+    padding-top: 17%;
+    padding-left: 52.1%;
+    font-size: 50px;
+ }
+ .home p {
+   padding-left:53%;
+ }
+
+ .button {
+   border: 2px solid rgb(219,112,147);
+   width: 15%;
+   border-radius: 50px;
+   padding: 10px 10px 10px 53px;
+   margin-left: 53%;
+   margin-top:4%;
+
+ }
+ .button a {
+   text-decoration: none;
+   color:black;
+}
+.yoga-image{
+  margin-top: -26%;
+  padding-left: 9%;
+}
+.yoga-image img {
+  width:300px;
+  height: 392px;
+  border-radius: 100px;
+}
+.leaves p{
+  margin-top: -19%;
+  font-size: 50px;
+  text-align: right;
+  margin-right: 8%;
+}
+.studio {
+  margin-top:13%;
+}
+.studio h3 {
+  font-size: 50px;
+  color: rgb(219,112,147);
+  padding-top:10%;
+  padding-left: 8%;
+  /* margin-top:13%; */
+}
+.studio p  {
+  padding-left: 8%;
+}
+.studio-image{
+  float:right;
+  padding-right: 5%;
+  margin-top: -9%;
+}
+
+.studio-image img {
+  width: 500px;
+  height: 500px;
+  /* width:450px; */
+  /* height: 392px; */
+  border-radius: 100px;
+  padding-right: 10%;
+}
+.list {
+  padding-left: 6.5%;
+  padding-top:5px;
+}
+footer{
+  /* background-color: purple; */
+  height: 550px;
+  margin-top: -6%;
+}
+footer h4{
+  text-align:center;
+  font-size:60px;
+  color:rgb(219,112,147);
+  padding-top:4%;
+}
+.address h5{
+  padding-left: 32.5%;
+  font-size: 20px;
+  color:rgb(219,112,147); 
+}
+
+.address p{
+  margin-top: -30px;
+  padding-left: 32.5%;
+  color: rgb(219,112,147);
+}
+.email {
+  padding-left: 4px;
+  padding-top: 10px;
+}
+.email p {
+  margin-top: 10px;
+  color:rgb(219,112,147);
+}
+.copyright{
+  text-align: center;
+  margin-top: 12%;
+  color:rgb(219,112,147);
+}
+.footer-image {
+  margin-top: -25%;
+  padding-left: 47%;
+}
+.footer-image img {
+  height: 200px;
+  width: 300px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+@media (max-width:940px) {
+  header {
+    width: 111%; 
+  }
+    header h1 {
+      margin-top: -37%;
+      padding-left: 8%;
+    }
+    section{
+      width: 105%;
+    }
+    .home {
+      padding-top: 1%;
+    }
+    .home h2 {
+      padding-top: 22%;
+      padding-left: 40%;
+    }
+    .home p {
+      padding-left: 41%;
+    }
+    .yoga-image {
+      margin-top: -35%;
+      padding-left: 4%;
+    }
+    .yoga-image img {
+      width: 280px;
+      height: 368px;
+    }
+   .button {
+    width:19%;
+    padding: 10px 10px 10px 39px;
+    margin-left: 41%;
+    }
+  .leaves p {
+    margin-top: -31%;
+  }
+  .studio {
+    padding-top: 10%;
+  }
+  .studio p {
+    padding-left: 5%;
+    font-size: 14px;
+  }
+  .studio h3 {
+    padding-left: 5%;
+  }
+  .studio-image {
+    /* padding-right: 2%; */
+     padding-top: 9%; 
+    margin-right: -5%;
+  }
+  .studio-image img {
+    width: 400px;
+    height: 400px;
+  }
+  .list {
+    padding-left: 3%;
+  }
+  .leaves {
+    width: 111%;
+  }
+  .leaves p {
+    font-size: 40px;
+  }
+  .address {
+    padding-right: 29%;
+  }
+  .copyright {
+    padding-top:7%;;
+  }
+  .footer-image {
+    margin-top:-42%;
+  }
+  .footer-image img {
+    height: 200px;
+    width: 284px;
+ 
+  } 
+  @media (max-width:768px) {
+    header {
+      width: 112%;
+    }
+     header h1 {
+       font-size: 130px;
+       margin-top: -40%;
+       padding-left: 0%;
+     }
+     .yoga-image {
+      margin-top: -44%;
+      padding-left: 4%;
+  }
+  .home p {
+    padding-left: 41%;
+    width: 106%;
+    font-size: 16px;
+  }
+  .button {
+    padding: 10px 10px 10px 27px;
+  }
+  .leaves {
+    width: 112%;
+  }
+  .leaves p {
+    font-size: 38px;
+ }
+ .home {
+  padding-top: 13%;
+}
+.studio-image {
+  padding-top: 9%;
+ }
+ .studio-image img {
+  width: 360px;
+  height: 380px;
+}
+.address {
+  padding-right: 46%;
+}
+.footer-image {
+  margin-top: -52%;
+}
+.footer-image img {
+  height: 200px;
+  width: 270px;
+}
+.copyright {
+  padding-top: 11%;
+}
+@media(max-width: 480px){
+  header {
+    width: 128%;
+  }
+  header img {
+    height: 365px;
+  }
+  header h1 {
+    font-size: 98px;
+  }
+  .yoga-image img {
+    width: 210px;
+    height: 320px;
+  }
+  .home h2 {
+    font-size: 35px;
+  }
+  .home p {
+    font-size: 12px;
+    width: 76%;
+  }
+  .yoga-image {
+    margin-top: -56%;
+    /* padding-left: 4%; */
+  }
+  .yoga-image img {
+    width: 210px;
+    height: 320px;
+  }
+  .leaves {
+    width: 128%;
+  }
+  .leaves img {
+    height: 385px;
+  }
+  .leaves p {
+    font-size: 29px;
+  }
+  .sudio h3 {
+    font-size:45px;
+  }
+  .studio p {
+    /* padding-left: 5%; */
+    font-size: 11px;
+  }
+  .studio-image img {
+    width: 338px;
+    height: 338px;
+}
+  .list {
+    padding-left: 0%;
+}
+  .list li {
+    font-size: 11px;
+  }
+  .address {
+    padding-right: 60%;
+}
+  .copyright {
+    padding-top: 36%;
+}
+.footer-image {
+  margin-top: -91%;
+}
+.footer-image img {
+  height: 180px;
+  width: 206px;
+}
+  footer h4 {
+    font-size: 45px;
+  }
+  @media (max-width: 414px) {
+    header {
+      font-size: 88px;
+      /* margin-top: -48%; */
+      /* margin-top: -45%; */
+    }
+    header h1 {
+      margin-top: -44%;
+    }
+    header img {
+      height: 302px;
+  }
+    section {
+      margin-top: 24%;
+     
+    }
+    .leaves img {
+      height: 325px;
+   }
+   .leaves p {
+    font-size: 24px;
+   }
+    .studio-image img {
+      width: 250px;
+      height: 250px;
+  
+    }
+    .studio h3 {
+      font-size: 45px;
+    }
+    footer h4 {
+      font-size: 40px;
+    }
+    .address {
+      margin-left: -7%;
+    }
+    .footer-image img {
+      height: 143px;
+      width: 177px;
+    }
+    @media (max-width: 375px) {
+      header h1 {
+        margin-top: -49%;
+        font-size: 80px;
+      }
+      .leaves p {
+        font-size: 22px;
+      }
+      .studio h3 {
+        font-size: 40px;
+    }
+    footer h4 {
+      font-size: 36px;
+    }
+    .footer-image {
+      margin-top: -107%;
+    }
+    @media (max-width: 360px) {
+
+  }
+
+}
+ 
+
