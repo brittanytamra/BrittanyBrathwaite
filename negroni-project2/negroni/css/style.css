@@ -500,8 +500,11 @@ footer img {
   padding-left: 10%;
   margin-top: -1%;
 }
+ .appetisers p {
+  margin-top: 15px;
+}
 .tapas {
-  margin-top: -94%;
+  margin-top: -82%;
   margin-left: 9%;
 }
 .price3 {
@@ -513,7 +516,11 @@ footer img {
   margin-left: 32%;
 }
 .vl {
-  margin-top: -110%;
+  margin-top: -111
+    %;
+}
+  .menu-sext p {
+   padding-top: 20%;
 }
 footer {
   /* margin-top: 27%; */
