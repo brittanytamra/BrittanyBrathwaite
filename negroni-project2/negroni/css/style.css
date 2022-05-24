@@ -584,8 +584,15 @@ footer img {
   margin-left: 33%;
   margin-top: -194%;
 }
+ .appetisers p {
+   margin-top: 14px;
+}
+ .menu-text {
+   margin-top: -121px;
+  
+}
 .vl {
-  margin-top: -102%;
+  margin-top: -116%;
 }
 footer {
   padding-top: 4%;
