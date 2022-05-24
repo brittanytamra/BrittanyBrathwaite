@@ -622,6 +622,12 @@ footer img {
     margin-right: -168%;
     margin-top: -82%;
   }
+  .vl {
+    margin-top: -115%;
+}
+  .menu-text {
+    margin-top: -13%;
+}
   .time p {
     font-size: 74px;
 }
@@ -632,7 +638,7 @@ footer img {
     width: 268%;
   }
   .tapas {
-    margin-top: -95%;
+    margin-top: -97%;
     margin-left: 9%;
   }
   .price {
